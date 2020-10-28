@@ -1,13 +1,14 @@
 <?php
-$CONEXION = [
-    "desarrollo" => [
+$CONNECTION = [
+    "developing" => [
+        //local
         "host" => "localhost",
         "port" => "3306",
         "user" => "root",
         "pass" => "",
-        "db" => "horario"
+        "db" => "bd_madame"
     ],
-    "produccion" => [
+    "production" => [
         "host" => "",
         "port" => "",
         "user" => "",
